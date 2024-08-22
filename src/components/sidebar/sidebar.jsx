@@ -1,0 +1,33 @@
+import "./sidebar.css";
+import icons from "../../constants/icons";
+import { NavLink } from "react-router-dom";
+import Navbar from "../NavBar/navbar";
+const SideBar=()=>{
+    return(
+        <div className="sidebar">
+            <header>
+            <Navbar />
+            </header>
+           
+        <h3>WeHR</h3>
+        <div className="sidebar_content"> 
+                <div className="menu-section">  
+                    <NavLink to="/dashboard" activeClassName="active"><span>{icons.dashboard}</span>Dashboard</NavLink>  
+                    <NavLink to="/employee" activeClassName="active"><span>{icons.employee}</span>Employee</NavLink>  
+                    <NavLink to="/attendance" activeClassName="active"><span>{icons.attendance}</span>Attendance</NavLink>  
+                    <NavLink to="/#" activeClassName="active"><span>{icons.payroll}</span>PayRoll</NavLink>  
+                    <NavLink to="/#" activeClassName="active"><span>{icons.task}</span>Task</NavLink>  
+                    <NavLink to="/#" activeClassName="active"><span>{icons.announcement}</span>Announcement</NavLink>
+                </div>
+                <h4>OTHER</h4>
+                <div className="content">
+                    <NavLink to="/#" activeClassName="active"><span>{icons.support}</span>Support</NavLink>  
+                    <NavLink to="/#" activeClassName="active"><span>{icons.settings}</span>Settings</NavLink> 
+                </div>
+        </div>
+       
+        </div>
+    );
+}
+
+export default SideBar;

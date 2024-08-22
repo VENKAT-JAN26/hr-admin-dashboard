@@ -1,0 +1,78 @@
+.sidebar{
+          height: 100vh;
+          width: 17vw;
+          display: flex;
+          flex-direction: column;
+          gap:7vh;
+          background: rgba(250, 250, 250, 1);
+          ;
+       }
+       .sidebar h3{ 
+           width: 242px; 
+           font-family: 'Poppins';
+           font-weight: 600;
+           font-size: 36px;
+           text-align: center;
+       }
+       .menu-section,.content,.sidebar_content{
+           display: flex;
+           flex-direction: column;
+           gap:24px;
+           color:#686868;
+       }
+       .sidebar_content h4{
+           font-family: 'Roboto';
+           font-size: 12px;
+           font-weight: 500;
+           line-height: 18px;
+           text-indent: 1vw;
+       }
+       .menu-section h5,.content h5{
+           display: flex;
+           gap:16px;
+           font-family: 'Poppins';
+           font-weight: 400;
+           font-size: 16px;
+           line-height: 24px;
+           padding-left: 2.5vw;
+           cursor: pointer;
+       }
+       .sidebar_content a {
+           color:#686868;
+           text-decoration: none;
+           display: flex;
+           gap:16px;
+           font-family: 'Poppins';
+           font-weight: 400;
+           font-size: 16px;
+           line-height: 24px;
+           padding-left: 2.5vw;
+           cursor: pointer;
+         }
+         .sidebar_content a.active {
+           text-decoration: none;
+           color: red;
+           display: flex;
+           gap:16px;
+           font-family: 'Poppins';
+           font-weight: 400;
+           font-size: 16px;
+           line-height: 24px;
+           padding-left: 2.5vw;
+           cursor: pointer;
+         }
+         
+         .sidebar_content a span{
+           font-size: 24px;
+         }
+         .sidebar_content a.active span{
+           font-size: 24px;
+         }
+       .menu-section h5 span,.content h5 span{
+        font-size: 24px;
+       }
+       @media only screen and (max-width:1204px){
+           .sidebar{
+               display: none;
+           }
+       }
