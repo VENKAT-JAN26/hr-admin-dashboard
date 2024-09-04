@@ -1,0 +1,14 @@
+.layout_sidebar {
+          position: fixed;
+          top: 0%;
+          left: 0%;
+        }
+        .layout_navbar {
+             margin-left: 13vw;
+        }
+        
+        @media only screen and (max-width:1204px){
+        .layout_navbar{
+           margin-left: 0%;
+        }
+      }

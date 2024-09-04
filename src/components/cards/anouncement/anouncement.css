@@ -1,0 +1,137 @@
+.anouncement_card{
+          width: 52vw;
+          height: 40vh;
+          border-radius: 10px 0px 0px 0px;
+          box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+          border: 1px; 
+          padding: 10px 25px; 
+          position: relative;
+          margin-top:3px ;
+      }
+      .header{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height:3vh;
+          margin-bottom: 1vh;
+      }
+      .header h3{
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28px;
+      }
+      .header span{
+          font-size: 25px;
+          color: #686868;
+          cursor: pointer;
+          position: relative;
+          top: 0.6vh;
+          left:0.3vw;
+      }
+      .anoun_contents{
+         display:flex;
+         flex-direction: column;
+         gap:3vh;
+         height: 34vh;
+         position: relative;
+         overflow: hidden;
+      }
+      .anoun_scroll{
+          display:flex;
+          flex-direction: column;
+          gap:3vh;
+          height: 34vh;
+          overflow-y: scroll;
+          position: relative;
+      }
+     
+      .anoun_content{
+          
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 11vh;
+          border-radius: 10px 0px 0px 0px;
+          box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+          border: 1px;
+      }
+      .anoun_content h3{
+          font-family: 'Poppins';
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: left;
+          padding:8px;
+      }
+      .anoun_content p{
+          font-family: 'Roboto';
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 14px;
+          text-align: left;
+          padding:5px;
+      
+      }
+      .anoun_button{
+         color: #B2B2B2;
+         background-color:white;
+         border:none;
+         outline:none;
+         cursor: pointer;
+         height: fit-content;
+         width: fit-content;
+         font-size: 30px;
+      }
+      .anoun_none{
+          display:none;
+      }
+      .anoun_more{
+          position:absolute;
+          bottom: 3vh;
+          width: 50vw;
+          height: 1vh;
+          border: none;
+          outline: none;
+          background-color:white;
+          color: red;
+          cursor: pointer;
+          font-family: 'Poppins';
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          text-align: center;
+      }
+      
+      .anoun_scroll::-webkit-scrollbar {
+          display: none;
+      }
+      @media only screen and (max-width:1204px){
+          .anouncement_card{
+              width: 97vw;
+         }
+          .anoun_more{
+              width: 100vw;
+          }
+          .anoun_scroll{
+            height: 31vh;
+        }
+          
+      }
+
+      @media only screen and (max-width:537px){
+        .anouncement_card{
+            width: 96vw;
+           margin-top: 192px;
+
+    }
+    .anoun_more{
+        height: 15px;
+        width: 94vw;
+    }
+        
+        .anoun_scroll{
+            height: 31vh;
+        }
+        
+    }

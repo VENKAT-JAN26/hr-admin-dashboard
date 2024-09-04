@@ -5,6 +5,9 @@ import birthdayboy from '../assets/birthdayboy.jpg';
 import roundblankphoto from '../assets/roundblankphoto.jpg';
 import logo from '../assets/logo.png';
 import logo2 from '../assets/logo2.jpg';
+import userprogres from '../assets/userprogress.png';
+import approve from '../assets/approve.png';
+import pending from '../assets/pending.png';
 
 export{
     profilepic,
@@ -14,4 +17,7 @@ export{
     roundblankphoto,
     logo,
     logo2,
+    userprogres,
+    approve,
+    pending
 }

@@ -1,0 +1,72 @@
+
+      .leaverequest_page {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        margin-left: 181px;
+        margin-top: 5px;
+        margin-right: 3%;
+        padding: 20px;
+    }
+    
+   /* Media query for laptops (width between 1024px and 1440px) */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .leaverequest_page {
+        margin-left:186px;
+        margin-right: 2.5%;
+        padding: 18px;
+        gap: 2.5vh;
+    }
+
+    .leaverequest_page .colorcard {
+        width: 75vw;
+        height: 19vh;
+    }
+
+    .leaverequest_page .eatable {
+        width: 80vw;
+        height: 55vh;
+    }
+}
+
+    /* Media query for mobile devices (width <= 768px) */
+    @media (max-width: 768px) {
+        .leaverequest_page {
+            margin-left: 10px;
+            margin-right: 1%;
+            padding: 10px;
+            gap: 1.5vh;
+        }
+    
+        .leaverequest_page .colorcard {
+            width: 90vw;
+            height: 15vh;
+        }
+    
+        .leaverequest_page .eatable {
+            width: 95vw;
+            height: 45vh;
+        }
+    }
+    
+    /* Media query for smaller mobile devices (width <= 480px) */
+    @media (max-width: 480px) {
+        .leaverequest_page {
+            margin-left: 5px;
+            margin-right: 1%;
+            padding: 5px;
+            gap: 1vh;
+        }
+    
+        .leaverequest_page .colorcard {
+            width: 95vw;
+            height: 12vh;
+        }
+    
+        .leaverequest_page .eatable {
+            width: 100vw;
+            height: 40vh;
+        }
+    }
+    
+      
