@@ -9,13 +9,11 @@ import AddEmploye from './pages/employee/addEmployee/addEmploye';
 import Attendance from './pages/attendance/attendanceroot/attendance';
 import LeaveRequest from './pages/attendance/leaveRequest/leavepage';
 import Layout from './components/layout/layout';
-
-
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
-   <Layout> </Layout>
+   <Layout> 
     <Routes>
        <Route path='/' element={<SignInCard/>} />
        <Route path='/dashboard' element={<DashboardPage/>} />
@@ -29,7 +27,7 @@ function App() {
               <Route path='addemployee'exact element={<AddEmploye/>}/>
         </Route> 
       </Routes>
-      
+      </Layout>
     </BrowserRouter>
     </div>
   );

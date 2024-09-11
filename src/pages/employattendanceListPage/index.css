@@ -1,58 +1,68 @@
 .employeListPage{
-          height: 90vh;
-          width: 87vw;
-          padding: 197px;
-          margin-top: -218px;
-      }
-      .emplist_header{
-          /* height:7vh; */
-          width: 83vw;
-          display: flex;
-          align-items: center;
-          gap:59vw ;
-          margin-top: 8px;
-      }
-      .emplist_header h3{
-          width: fit-content;
-          padding: 10px 10px 10px 0px;
-          font-family: 'Poppins';
-          font-size: 24px;
-          font-weight: 500;
-          text-align: center; 
-      }
-      .emplist_header_button{
-        
-          width:20vw;
-          display: flex;
-          gap: 1vw;
-          margin-left: -127px;
-      }
-      .emplist_header span{
-        font-size: larger;
-      }
-      .import_excel_button,.add_employee{
-          width:143px;
-          height:40px;
-          top: 95px;
-          left: 111px;
-          padding: 8px 12px 8px 12px;
-          gap: 12px;
-          border-radius: 10px;
-          border: 1px 0px 0px 0px;
-          opacity: 0px;   
-          font-family: 'Inter';
-          font-size: 14px;
-          font-weight: 600;
-          line-height: 18px;
-          text-align: center;
-          letter-spacing: 1px;
-          white-space: nowrap;
-          background-color:white ;
-          color: black;
-          cursor: pointer;
-      }
-      .add_employee{
-          color: black;
-          background-color: black;
-          color: white;
-      }
+    height: 90vh;
+    width: 87vw;
+    padding-left: 30px;
+}
+.emplist_header{
+    height:7vh;
+    width: 82vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.item{
+    flex-grow: 1;
+}
+.item:nth-child(2){
+    flex-grow: 0;
+}
+.list_title h3{
+    text-align: left;
+    line-height: 42px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+}
+.emplist_header span{
+  font-size: larger;
+}
+.import_excel_button,.add_employee{
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    background-color:white ;
+    color: black;
+    cursor: pointer;
+}
+.add_employee{
+    color: black;
+    background-color: black;
+    color: white;
+}
+.import_excel_button{
+    margin-right: 3px;
+}
+@media (max-width:1235px) {
+    .emplist_header {
+     width: 91vw;
+     height: 15vh;
+    }
+  }
+
+@media (max-width:502px){
+    .emplist_header{
+        flex-wrap: wrap;
+    }
+    .item:nth-child(2){
+        margin-top:2px;
+        order: -1;
+        flex-basis: 500px;
+    }
+}

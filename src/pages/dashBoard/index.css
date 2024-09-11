@@ -1,5 +1,5 @@
 .dash_page{
- margin-left:13vw;
+ margin-left:0vw;
  display: flex;
  flex-direction: row;
 }
@@ -29,35 +29,3 @@
     }
 }
 
-/* .dash_page{
-    display: flex;
-    flex-direction: row;
-   }
-   .cardanouncement{
-       margin-left: 2vw;
-       display: flex;
-       flex-direction: column;
-       gap:0.1vh;   
-   }
-   
-   @media only screen and (max-width:1204px){
-       .dash_page{
-           margin: 0% 1vw;
-           flex-direction: column;
-       }
-       .cardanouncement,.calenderactivity{
-           margin-left: 0%;
-       }
-       .cardanouncement{
-           gap: 5vh;
-       }
-   }
-   
-   @media only screen and (max-width:537px){
-       .cardanouncement{
-           gap:6vh;
-       }
-       .calenderactivity{
-           gap: 0;
-       }
-   } */

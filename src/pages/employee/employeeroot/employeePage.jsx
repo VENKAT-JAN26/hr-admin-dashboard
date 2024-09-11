@@ -1,13 +1,9 @@
 import { useLocation } from 'react-router-dom';
 import './index.css';
-
 import {employeetable} from '../../../constants/jsonconstant';
 import EAcard from '../../../components/cards/eacard/eacard';
 import AddEmploye from '../addEmployee/addEmploye';
 import EmployeAttenList from '../../employattendanceListPage/employeAttenList';
-
-
-
 const Employee=()=>{
      const location=useLocation();
      const showmeployeepage=location.pathname==='/employee';

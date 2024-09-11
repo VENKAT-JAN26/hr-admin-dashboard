@@ -1,8 +1,7 @@
 import './index.css';
 
 const Birthday=({birthdaydata})=>{
-        
-    return(
+     return(
         <div className='birthdayCards'>
             <h3 className='birthdayCards_header'>Birthday Calender</h3>
             <div className='birthday_cards'>

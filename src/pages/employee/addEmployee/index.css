@@ -1,7 +1,8 @@
 .addemp_page{
-          width: 87vw;
-          height: 92vh;
-          display: flex;
-          flex-direction: column;
-          gap:2vh;
-      }
+    margin-left: 1vw;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}

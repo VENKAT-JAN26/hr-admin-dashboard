@@ -1,5 +1,5 @@
 .detailofemp_card{
-          width: 85vw;
+          width: 82vw;
           height: 32vh;
           box-shadow: 0px 0px 0.9px 0px rgba(0,0,0,0.75);
           border-radius: 13px;
@@ -49,3 +49,40 @@
           display: flex;
           flex-direction: column;
       }
+
+     /*
+    
+    @media (max-width:1242px){
+        .detailofemp_card{
+            width: 94vw;
+            box-shadow: 0px 0px 0.9px 0px rgba(0,0,0,0.75);
+            border-radius: 13px;
+            margin-left: 10px;
+        }
+        .detailofemp_input{
+            width:100%;
+        }
+        .detailofemp_input input{
+            width: 300px;
+        }
+    }
+    @media(max-width:1094px){
+        .detailofemp_card{
+            height: max-content;
+            padding: 10px;
+        }
+        .detailofemp_input{
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto;
+        }
+    }
+    @media(max-width:744px){
+        .detailofemp_input{
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto auto auto;
+        }
+        .detailofemp_input input{
+            width: 90%;
+        }
+    }
+     */
