@@ -4,7 +4,7 @@
  flex-direction: row;
 }
 .cardanouncement,.calenderactivity{
-    margin-left: 3vw;
+    margin-left: 2vw;
     display: flex;
     flex-direction: column;
     gap: 5vh;   

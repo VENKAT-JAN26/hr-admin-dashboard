@@ -5,3 +5,19 @@
     width: 50vw;
     height: 100vh;
 }
+
+/* @media screen and (max-width:1510px) {
+    .SignIn{
+        display: flex;
+    }
+    .sign_img{
+        width: 50vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .sign_img{
+       display: none;
+    }
+} */

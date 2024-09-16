@@ -1,8 +1,10 @@
 .personalofemp_card{
-          width: 85vw;
-          height: 26vh;
+          width: 82vw;
+          height: 30vh;
           box-shadow: 0px 0px 0.9px 0px rgba(0,0,0,0.75);
           border-radius: 13px;
+          padding: 1px;
+          margin-top: -15px;
       }
       .personalofemp_card_header{
           display: flex;
@@ -22,7 +24,8 @@
           width: 70vw;
           height: fit-content;
           display: grid;
-          grid-template-columns: auto auto auto;
+          /* grid-template-columns: auto auto auto; */
+          grid-template-columns:repeat(3,1fr);
           grid-template-rows: auto auto;
           gap: 10px;
       }
@@ -45,7 +48,75 @@
           margin-top: 10px;
           outline: none;
       }
+
+    
       .personalofemp_input div{
           display: flex;
           flex-direction: column;
       }
+      /* Responsive Design Adjustments */
+    
+    /* Medium-sized screens (tablets) */
+    @media (max-width: 1094px) {
+        .personalofemp_input {
+            grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+        }
+
+        .personalofemp_card{
+            width: 82vw;
+            height: 67vh;
+            box-shadow: 0px 0px 0.9px 0px rgba(0,0,0,0.75);
+            border-radius: 13px;
+        }
+        .personalofemp_input input {
+            width: 100%; /* Input fields take full width */
+        }
+    }
+    
+    /* Small-sized screens (phones) */
+    @media (max-width: 744px) {
+         .personalofemp_input {
+            grid-template-columns:1fr; /* Single column for small screens */
+            
+        }
+        .personalofemp_card{
+            width: 82vw;
+            height: 80vh;
+            box-shadow: 0px 0px 0.9px 0px rgba(0,0,0,0.75);
+            border-radius: 13px;
+            margin-top: -20px;
+            padding: 7px;
+        }
+        .personalofemp_input input {
+            width: 100%; /* Input fields take full width */
+        }
+    }
+    
+    /* Extra-small screens */
+    @media (max-width: 500px) {
+        .personalofemp_card {
+            width: 82vw;
+            height: 85vh;
+            padding: 10px; 
+           margin-top: -15px;
+        }
+        
+        .personalofemp_input {
+            gap: 15px; /* Reduce gap between input fields */
+        }
+    }
+
+    @media (max-width: 415px) {
+        .personalofemp_card {
+            width: 82vw;
+            height: 85vh;
+            padding: 4px; 
+           margin-top: -22px;
+        }
+        
+        .personalofemp_input {
+            gap: 15px; /* Reduce gap between input fields */
+        }
+    }
+    
+    

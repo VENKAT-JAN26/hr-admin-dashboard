@@ -95,13 +95,21 @@ const announcementdata=[{topic:'Outing schedule for every departement',time:'5 M
 
 ] 
    
-const birthdata=[{img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 1998'},
-    {img:roundblankphoto,name:'Robert Whistable',position:'Product manager',date:'22 August 2024'},
-    {img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 1998'},
-    {img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 2998'},
-    {img:roundblankphoto,name:'Robert Whistable',position:'Product manager',date:'22 August 2124'},
-    {img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 2498'}
-]
+// const birthdata=[{img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 1998'},
+//     {img:roundblankphoto,name:'Robert Whistable',position:'Product manager',date:'22 August 2024'},
+//     {img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 1998'},
+//     {img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 2998'},
+//     {img:roundblankphoto,name:'Robert Whistable',position:'Product manager',date:'22 August 2124'},
+//     {img:birthdayboy,name:'Robert Whistable',position:'Product manager',date:'15 feb 2498'}
+// ]
+const birthdata = [
+    { img: birthdayboy, name: 'Robert Whistable', position: 'Product manager', date: '2024-09-25' },
+    { img: roundblankphoto, name: 'Robert Whistable', position: 'Product manager', date: '2024-08-22' },
+    { img: birthdayboy, name: 'Robert Whistable', position: 'Product manager', date: '2024-09-15' },
+    { img: birthdayboy, name: 'Robert Whistable', position: 'Product manager', date: '2024-09-26' },
+    { img: roundblankphoto, name: 'Robert Whistable', position: 'Product manager', date: '2024-09-26' },
+    { img: birthdayboy, name: 'Robert Whistable', position: 'Product manager', date: '2024-09-24' }
+  ];
 const employeeCard=[{header:'Employee',icon:icons.personadd,name:'Employee',path:'/employee/employeelist'},{icon:icons.organ,name:'Org Config'}]
 
 const attendanceCard=[{header:'Attendance',icon:icons.personadd,name:'Leave Request',path:'/attendance/leaverequest'},

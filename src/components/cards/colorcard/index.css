@@ -25,7 +25,7 @@
       }
       @media only screen and (max-width:1440px){
         .colorcards{
-            width: 100vw;
+            width: 55vw;
         }
         .colorcard{
          width: 32vw;
@@ -33,7 +33,7 @@
         }
     }
 
-/* 
+
       @media only screen and (max-width:1204px){
           .colorcards{
               width: 100vw;
@@ -42,7 +42,38 @@
            width: 32vw;
            margin-right: 3vw;
           }
-      } */
+      }
+
+
+      @media only screen and (max-width:869px){
+        .colorcards{
+            width: 94vw;
+            height: 22vh;
+            padding-top: 20px;
+        }
+        .colorcard{
+         width: 32vw;
+         margin-right: 3vw;
+        }
+    }
+
+
+
+    
+    @media only screen and (max-width:670px){
+        .colorcards{
+          height: 58vh; 
+          flex-direction: column;
+          gap:2vh;
+        }
+        .colorcard{
+            width: 96vw;
+            height: 18vh;
+        }
+
+        
+    }
+
       @media only screen and (max-width:537px){
           .colorcards{
             height: 58vh; 

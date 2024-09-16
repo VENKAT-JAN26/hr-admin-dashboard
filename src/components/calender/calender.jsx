@@ -24,6 +24,16 @@ const CalenderComponent=()=>{
         setFilteredBirthdays(todayBirthdays);
     }, []); 
 
+    // useEffect(() => {
+    //     const updatedBirthdays = birthdata.filter((birthday) => {
+    //         return birthday.date && new Date(birthday.date).toDateString() === selectedDate.toDateString();
+    //     });
+    //     setFilteredBirthdays(updatedBirthdays);
+    // }, [selectedDate]);
+
+
+
+
     const handleDateChange = (date) => {
         setSelectedDate(date);
     };

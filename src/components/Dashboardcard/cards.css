@@ -95,6 +95,17 @@
     }
 }
 
+@media only screen and (max-width:670px){
+    .dashnoardcard{
+      width: 98vw;
+    }
+    .cardreports {
+            width: 98vw;
+            display: flex;
+           justify-content: space-between;
+ }
+
+}
 
 @media only screen and (max-width:600px){
     .dashnoardcard{
@@ -104,11 +115,14 @@
       .dashnoardcard h3{
         margin-bottom: 9px;
       }
-    .cardreports{
-      flex-direction: column;
-      gap:2vh;
-
-    }
+      .cardreports{
+        flex-direction: column;
+        gap:2vh;
+        margin-top:30px;
+        
+  
+      }
+    
     .cardreport{
         width: 96vw;
     }

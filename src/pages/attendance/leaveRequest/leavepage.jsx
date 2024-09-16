@@ -6,7 +6,7 @@ import './index.css';
 const LeaveRequest=()=>{
     return(
         <div className='leaverequest_page'>
-            <Colorcard cardcontent={leavecard} width='68vw' height='20vh' padding_top='20px'/>
+            <Colorcard cardcontent={leavecard} width='79vw' height='24vh' padding_top='20px'/>
             <Eatable  tablecon={leaverequesttable} height='61vh'width='81vw'/>
         </div>
     );

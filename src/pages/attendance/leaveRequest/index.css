@@ -71,7 +71,7 @@
 
     .leaverequest_page{
         padding-top: 10px;
-        padding-left: 30px;
+        padding-left: 5px;
         display: flex;
         flex-direction:column;
         gap: 3vh;

@@ -106,7 +106,7 @@
             display: none;
         }
         .navbar_content{
-            width: 80vw;
+            width: 55vw;
             justify-content: space-around;
         }
     }
@@ -115,6 +115,10 @@
        
         .search_bar button{
             display: none;
+        }
+        .navbar_content{
+            width: 50vw;
+            justify-content: space-around;
         }
 
     }

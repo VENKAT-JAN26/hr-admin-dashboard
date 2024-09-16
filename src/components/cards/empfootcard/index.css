@@ -40,7 +40,7 @@
       } */
 
       .empfoot_card{
-        width: 81vw;
+        width: 82vw;
         height: 10vh;
         box-shadow: 0px 0px 0.9px 0px rgba(0,0,0,0.75);
         border-radius: 13px;
@@ -80,15 +80,73 @@
         color: white;
         background-color: black;
     }
+
+    @media (max-width:1400px) {
+        .empfoot_card{
+            width: 82vw;
+       }
+    }
     
     @media (max-width:1242px) {
         .empfoot_card{
-         width: 95vw;
+            width: 82vw;
        }
+    }
+
+      @media(max-width:1094px){
+        .empfoot_card{
+           padding-left: 25px; 
+           width: 82vw;
+        height: 10vh;
+        margin-top: 5px;
+        }
+    }
+
+    @media (max-width:745px) {
+        .empfoot_card{
+         width: 82vw;
+       }
+    }
+  
+    @media(max-width:744px){
+        .empfoot_card{
+           padding-left: 25px; 
+           width: 82vw;
+        height: 10vh;
+        margin-top: -6px;
+        }
     }
     @media(max-width:561px){
         .empfoot_card{
            padding-left: 25px; 
+           width: 82vw;
+        height: 10vh;
+        margin-top: 5px;
+        }
+    }
+
+    @media(max-width:500px){
+        .empfoot_card{
+           padding-left: 25px; 
+           width: 82vw;
+           height: 10vh;
+           margin-top: -7px;
+        }
+        .empfootend button{
+            padding: 4px 9px;
+            border-radius: 10px;
+            margin-right: -12px;
+        }
+    }
+    @media(max-width:415px){
+        .empfoot_card{
+           padding-left: 25px; 
+           margin-top: -6px;
+        }
+        .empfootend button{
+            padding: 4px 9px;
+            border-radius: 10px;
+            margin-right: -12px;
         }
     }
     @media (max-width:550px) {
