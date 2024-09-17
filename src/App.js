@@ -10,6 +10,7 @@ import LeaveRequest from './pages/attendance/leaveRequest/leavepage';
 import Layout from './components/layout/layout';
 import SignIn from './pages/signIn/signin';
 
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
     <Layout>
     <Routes>
        <Route path='/' element={<SignIn/>} />
+       
        <Route path='/dashboard' element={<DashboardPage/>} />
        <Route path='/employee' exact element={<Employee/>}>
               <Route path='employeelist'exact element={<EmployeAttenList/>}/>

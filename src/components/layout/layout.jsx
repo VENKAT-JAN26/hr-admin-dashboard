@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import Navbar from '../navbar/Navbar';
+import Navbar from '../navbar/navbar';
 import SideBar from '../sidebar/sidebar';
 import './layout.css';
 import icons from '../../constants/icons';
