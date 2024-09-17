@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import Navbar from '../navbar/navbar';
+import Navbar from '../navbar/Navbar';
 import SideBar from '../sidebar/sidebar';
 import './layout.css';
 import icons from '../../constants/icons';
@@ -19,6 +19,7 @@ const Layout=({children})=>{
             <div className='navbar_layout'>
                 <div className='layout_navbar'><Navbar/></div>
                 <div className='layout_content'>{children}</div>
+                
             </div>
         </div>
     );
