@@ -9,7 +9,7 @@ import Attendance from './pages/attendance/attendanceroot/attendance';
 import LeaveRequest from './pages/attendance/leaveRequest/leavepage';
 import Layout from './components/layout/layout';
 import SignIn from './pages/signIn/signin';
-//import SignInCard from './components/SigninPage/SingInCard';
+
 function App() {
   return (
     <div className="App">
