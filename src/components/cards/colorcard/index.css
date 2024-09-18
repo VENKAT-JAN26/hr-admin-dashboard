@@ -26,6 +26,7 @@
       @media only screen and (max-width:1440px){
         .colorcards{
             width: 55vw;
+            height: 18vh;
         }
         .colorcard{
          width: 32vw;
@@ -60,7 +61,7 @@
 
 
     
-    @media only screen and (max-width:670px){
+    @media only screen and (max-width:600px){
         .colorcards{
           height: 58vh; 
           flex-direction: column;
@@ -74,7 +75,7 @@
         
     }
 
-      @media only screen and (max-width:537px){
+      /* @media only screen and (max-width:537px){
           .colorcards{
             height: 58vh; 
             flex-direction: column;
@@ -86,4 +87,4 @@
           }
 
           
-      }
+      } */

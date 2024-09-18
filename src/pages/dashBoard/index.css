@@ -1,4 +1,52 @@
 .dash_page{
+    display: flex;
+    flex-direction: row;
+   }
+   .cardanouncement{
+       margin-left: 2vw;
+       display: flex;
+       flex-direction: column;
+       gap:0.1vh;   
+   }
+   
+   @media only screen and (max-width:1104px){
+       .dash_page{
+           margin: 0%;
+           flex-direction: column;
+           gap: 1rem;
+       }
+       .cardanouncement,.calenderactivity{
+           margin-left: 0%;
+       }
+   }
+   
+   @media only screen and (max-width:600px){
+       .cardanouncement{
+           gap:5vh;
+       }
+       .calenderactivity{
+           gap: 5vh;
+       }
+   }
+   /* @media only screen and (max-width:420px){
+    .cardanouncement{
+        gap:5vh;
+    }
+    .calenderactivity{
+        gap: 5vh;
+    }
+    .dash_page{
+        margin: 0%;
+        flex-direction: column;
+        gap: 1rem;
+        width: 79vw;
+        height: vh;
+    }
+
+} */
+ 
+
+/* .dash_page{
  margin-left:0vw;
  display: flex;
  flex-direction: row;
@@ -27,5 +75,5 @@
     .calenderactivity{
         gap: 0;
     }
-}
-
+} */
+ 

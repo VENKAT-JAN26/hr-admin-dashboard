@@ -2,43 +2,35 @@ import './calender.css';
 import 'react-calendar/dist/Calendar.css';
 import Calendar from 'react-calendar';
 import Birthday from '../cards/birthday/birthday';
-
 import { birthdata } from '../../constants/jsonconstant';
 import { useEffect, useState } from 'react';
 
 const CalenderComponent=()=>{
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [filteredBirthdays, setFilteredBirthdays] = useState([]);
-
-    useEffect(() => {
+useEffect(() => {
         const updatedBirthdays = birthdata.filter((birthday) => {
             return birthday.date!=='' && new Date(birthday.date).toDateString() === selectedDate.toDateString();
         });
         setFilteredBirthdays(updatedBirthdays);
     }, [selectedDate]);
-
-    useEffect(() => {
+    
+ useEffect(() => {
         const todayBirthdays = birthdata.filter((birthday) => {
             return birthday.date!=='' && new Date(birthday.date).toDateString() === new Date().toDateString();
         });
         setFilteredBirthdays(todayBirthdays);
     }, []); 
-
-    // useEffect(() => {
+ // useEffect(() => {
     //     const updatedBirthdays = birthdata.filter((birthday) => {
     //         return birthday.date && new Date(birthday.date).toDateString() === selectedDate.toDateString();
     //     });
     //     setFilteredBirthdays(updatedBirthdays);
     // }, [selectedDate]);
-
-
-
-
-    const handleDateChange = (date) => {
+const handleDateChange = (date) => {
         setSelectedDate(date);
     };
- 
-    return(
+  return(
         <div className='calenderactivity'>
         <div className='calender'>
             <h3>Calender</h3>
@@ -47,12 +39,8 @@ const CalenderComponent=()=>{
             </div>
         </div>
          <Birthday birthdaydata={filteredBirthdays}/>
-    
-      
         </div>
     );
-
 }
-
 export default CalenderComponent;
 

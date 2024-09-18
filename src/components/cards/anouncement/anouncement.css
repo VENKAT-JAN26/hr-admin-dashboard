@@ -1,7 +1,162 @@
+/* .anouncement_card{
+    width: 52vw;
+    height: 37.5vh;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    border: 1px; 
+    padding: 10px 25px; 
+    background-color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:3vh;
+    padding: 14px 5px 19px 5px; 
+}
+.header h3{
+    font-size: 18px;
+    font-weight:600;
+    line-height: 28px;
+}
+.anouncement_date{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    padding: 0px 8px;
+    background-color:#FAFAFA;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+.anouncement_date h3{
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #686868;
+}
+.anouncement_date button{
+    width: max-content;
+    font-size: 22px;
+    color: #686868;
+    padding: 3px 0px 0px 5px;
+    background-color:#FAFAFA;
+    cursor: pointer;
+    border: none;
+    outline: none;    
+}
+.anoun_contents{
+   display:flex;
+   flex-direction: column;
+   gap:1.5vh;
+   height: 30vh;
+   position: relative;
+   overflow: hidden;
+   padding: 3px;
+}
+.anoun_scroll{
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+    height: 30vh;
+    overflow-y: scroll;
+    position: relative;
+    padding: 3px;
+}
+button.anoun_more {
+    border-radius: 0px 0px 10px 10px;
+    margin-left: -26px;
+}
+.anoun_content{
+    background-color: #FAFAFA;
+    padding: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+.anoun_schedule h3{
+    width: 35vw;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height:24px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.anoun_content p{
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height:14px;
+    text-align: left;
+}
+.anoun_button{
+   color: #B2B2B2;
+   background-color:#FAFAFA;
+   border:none;
+   outline:none;
+   cursor: pointer;
+   height: fit-content;
+   width: fit-content;
+   font-size: 25px;
+}
+.anoun_none{
+    display:none;
+}
+.anoun_more{
+    width: 52vw;
+    height: fit-content;
+    border: none;
+    outline: none;
+    background-color:white;
+    color: red;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+
+}
+
+.anoun_scroll::-webkit-scrollbar {
+    display: none;
+}
+@media(max-width:1238px){
+    .anouncement_card,.anoun_more{
+        width: 62vw;
+    }
+}
+@media only screen and (max-width:1104px){
+    .anouncement_card,.anoun_more{
+        width: 89vw;
+    }
+
+    .anouncement_date h3{
+        font-family: 'Roboto';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: left;
+    }
+}
+@media (max-width:600px) {
+    .anoun_schedule h3{
+        width: 65vw;
+    }
+} */
 .anouncement_card{
           width: 52vw;
           height: 40vh;
-          border-radius: 10px 0px 0px 0px;
+          border-radius: 10px;
           box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
           border: 1px; 
           padding: 10px 25px; 
@@ -107,6 +262,12 @@
           display: none;
       }
       
+      @media only screen and (max-width:1550px){
+        .anouncement_card{
+            margin-top: 2%;
+       }
+       
+    }
 
  
 @media(max-width:1238px){
@@ -132,24 +293,11 @@
         width: 65vw;
     }
 }
-      @media only screen and (max-width:1550px){
-        .anouncement_card{
-            /* width: 97vw; */
-            margin-top: -39px;
-       }
-        /* .anoun_more{
-            width: 100vw;
-        }
-        .anoun_scroll{
-          height: 31vh;
-      }
-         */
-    }
-
+  
       @media only screen and (max-width:1204px){
           .anouncement_card{
               width: 97vw;
-              margin-top:-63px;
+              margin-top:8vh;
          }
           .anoun_more{
               width: 100vw;
@@ -163,7 +311,7 @@
       @media only screen and (max-width:869px){
         .anouncement_card{
             width: 96vw;
-           margin-top:5px;
+           margin-top:12vh;
 
     }
     .anoun_more{
@@ -176,9 +324,7 @@
         }
         
     }
-
-
-      @media only screen and (max-width:670px){
+/* @media only screen and (max-width:670px){
         .anouncement_card{
             width: 96vw;
            margin-top:315px;
@@ -193,12 +339,12 @@
             height: 31vh;
         }
         
-    }
+    } */
 
     @media only screen and (max-width:600px){
         .anouncement_card{
             width: 96vw;
-           margin-top:43px;
+           margin-top:18vh;
 
     }
     .anoun_more{
@@ -211,7 +357,7 @@
         }
         
     }
-
+/* 
       @media only screen and (max-width:537px){
         .anouncement_card{
             width: 96vw;
@@ -227,8 +373,8 @@
             height: 31vh;
         }
         
-    }
-    @media only screen and (max-width:400px){
+    } */
+    /* @media only screen and (max-width:400px){
         .anouncement_card{
             width: 96vw;
            margin-top: -65px;
@@ -243,7 +389,7 @@
             height: 31vh;
         }
         
-    }
-
+    } */
+    
 
     

@@ -10,6 +10,9 @@
     align-items: center;
     margin-bottom: 8px;
 }
+.employeListPage_table{
+    margin-top: 3vh;
+}
 .item{
     flex-grow: 1;
 }
@@ -64,5 +67,8 @@
         margin-top:2px;
         order: -1;
         flex-basis: 500px;
+    }
+    .employeListPage_table{
+        margin-top: -57vh;
     }
 }

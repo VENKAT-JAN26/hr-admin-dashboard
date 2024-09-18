@@ -1,0 +1,6 @@
+.calenderactivity{
+          margin-left: 2vw;
+          display: flex;
+          flex-direction: column;
+          gap: 3vh;   
+      }

@@ -101,24 +101,56 @@
           }
     }
    
-    @media screen and (max-width:436px) {
-        .search_bar{
-            display: none;
-        }
-        .navbar_content{
-            width: 55vw;
-            justify-content: space-around;
-        }
-    }
    
     @media only screen and (max-width:637px){
        
         .search_bar button{
             display: none;
         }
+        
         .navbar_content{
             width: 50vw;
             justify-content: space-around;
         }
+        .profile_picture{
+            border-radius: 100%;
+            width: 5vw;
+            height: 4vh;
+        }
 
     }
+
+    @media screen and (max-width:575px) {
+        .search_bar{
+            display: none;
+        }
+        .search_icon{
+            display: none;
+        }
+        .navbar_content{
+            width: 55vw;
+            justify-content: space-around;
+        }
+       
+    }
+    @media screen and (max-width:430px) {
+        .search_bar{
+            display: none;
+        }
+        .search_icon{
+            display: none;
+        }
+        .navbar_content{
+            width: 78vw;
+            justify-content: space-around;
+        }
+        .addemp_nav_header{
+            display: none; 
+        }
+        .leave_nav_header{
+            display: none; 
+        }
+       
+    }
+   
+   

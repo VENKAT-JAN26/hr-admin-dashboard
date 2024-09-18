@@ -9,13 +9,9 @@ const DashboardPage=()=>{
             <div className='cardanouncement'>
               <DashboardCard/>
              <Anouncement/>
-             
-             {/* <Announcement/> */}
-          
-            </div>
+             </div>
                <CalenderComponent/>
             </div>
     );
 }
-
 export default DashboardPage;

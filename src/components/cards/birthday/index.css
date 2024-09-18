@@ -85,6 +85,7 @@
            .birthdayCards{
             width:30vw;
             height:28vh;
+          
            }
            .birthdayCards_header{
                width: 100%;
@@ -165,3 +166,11 @@
                }
            
            }
+           @media only screen and (max-width:600px){
+            .birthdayCards{
+                width: 97vw;
+            }
+            .birthday_card{
+                width: 44vw;
+            }
+        }
