@@ -346,7 +346,7 @@ button.anoun_more {
         .anouncement_card{
             width: 96vw;
             height: 36vh;
-           margin-top:7vh;
+           margin-top:9vh;
            /* top: -47px; */
 
     }
@@ -361,7 +361,7 @@ button.anoun_more {
 
         .anoun_more{
             height: 6.3vh;
-            bottom: 1vh;
+            bottom: 0vh;
         }
         .anoun_contents{
             gap:2vh;
