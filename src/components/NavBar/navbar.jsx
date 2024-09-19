@@ -1,7 +1,7 @@
 import './navbar.css';
 import React, { useEffect, useState } from 'react';
 import icons from '../../constants/icons';
-import { profilepic } from '../../constants/images';
+import { venkat } from '../../constants/images';
 import { useLocation } from 'react-router-dom';
 const Navbar=()=> {
   const [onlinestatus,setonlinestatus]=useState('');
@@ -36,8 +36,8 @@ useEffect(()=>{
         <div className='navbar_content'>
           <div className='notification'>{icons.notification}</div>
           <div className='message'>{icons.message}</div>
-          <img src={profilepic} alt='profile_picture' className='profile_picture'/>
-          <h3  onMouseOver={handlestatus}data-toggle="tooltip" title={`User is ${onlinestatus}`} data-placement="bottom">Admirra John</h3> 
+          <img src={venkat} alt='profile_picture' className='profile_picture'/>
+          <h3  onMouseOver={handlestatus}data-toggle="tooltip" title={`User is ${onlinestatus}`} data-placement="bottom">Venkat</h3> 
           <span>{icons.downarrow}</span>       
         </div>
     </nav>

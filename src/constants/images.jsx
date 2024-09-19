@@ -8,6 +8,7 @@ import logo2 from '../assets/logo2.jpg';
 import userprogres from '../assets/userprogress.png';
 import approve from '../assets/approve.png';
 import pending from '../assets/pending.png';
+import venkat from '../assets/venkat.jpg'
 
 export{
     profilepic,
@@ -19,5 +20,6 @@ export{
     logo2,
     userprogres,
     approve,
-    pending
+    pending,
+    venkat
 }

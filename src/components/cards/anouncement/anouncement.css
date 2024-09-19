@@ -186,7 +186,7 @@ button.anoun_more {
       .anoun_contents{
          display:flex;
          flex-direction: column;
-         gap:3vh;
+         gap:2vh;
          height: 34vh;
          position: relative;
          overflow: hidden;
@@ -195,7 +195,7 @@ button.anoun_more {
           display:flex;
           flex-direction: column;
           gap:3vh;
-          height: 34vh;
+          height: 30vh;
           overflow-y: scroll;
           position: relative;
       }
@@ -243,9 +243,9 @@ button.anoun_more {
       }
       .anoun_more{
           position:absolute;
-          bottom: 3vh;
+          bottom: 1vh;
           width: 50vw;
-          height: 1vh;
+          /* height: 1vh; */
           border: none;
           outline: none;
           background-color:white;
@@ -256,6 +256,12 @@ button.anoun_more {
           font-weight: 500;
           line-height: 20px;
           text-align: center;
+
+          justify-content: space-between;
+          height: 6vh;
+          border-radius: 10px 0px 0px 0px;
+          box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+          border: 1px;
       }
       
       .anoun_scroll::-webkit-scrollbar {
@@ -293,103 +299,77 @@ button.anoun_more {
         width: 65vw;
     }
 }
-  
+/*   
       @media only screen and (max-width:1204px){
           .anouncement_card{
               width: 97vw;
               margin-top:8vh;
          }
-          .anoun_more{
+           .anoun_more{
               width: 100vw;
-          }
-          .anoun_scroll{
             height: 31vh;
+        } 
+        .anoun_more{
+            height: 6.3vh;
+            bottom: 1vh;
         }
-          
-      }
+      } */
 
-      @media only screen and (max-width:869px){
+      @media only screen and (max-width:1204px){
         .anouncement_card{
             width: 96vw;
-           margin-top:12vh;
+            height: 36vh;
+            margin-top:7vh;
 
     }
-    .anoun_more{
+    /* .anoun_more{
         height: 15px;
         width: 94vw;
-    }
-        
-        .anoun_scroll{
-            height: 31vh;
-        }
-        
-    }
-/* @media only screen and (max-width:670px){
-        .anouncement_card{
-            width: 96vw;
-           margin-top:315px;
-
-    }
-    .anoun_more{
-        height: 15px;
-        width: 94vw;
-    }
-        
-        .anoun_scroll{
-            height: 31vh;
-        }
-        
     } */
+        
+    .anoun_more{
+        height: 6.3vh;
+        bottom: 1vh;
+    }
+        .anoun_scroll{
+            height: 31vh;
+        }
+        .anoun_contents{
+            gap:2vh;
+            height: 30vh;
+        }
+        
+    }
+
 
     @media only screen and (max-width:600px){
         .anouncement_card{
             width: 96vw;
-           margin-top:18vh;
+            height: 36vh;
+           margin-top:7vh;
+           /* top: -47px; */
 
     }
-    .anoun_more{
+    /* .anoun_more{
         height: 15px;
         width: 94vw;
     }
-        
+         */
         .anoun_scroll{
             height: 31vh;
         }
-        
-    }
-/* 
-      @media only screen and (max-width:537px){
-        .anouncement_card{
-            width: 96vw;
-           margin-top: -75px;
 
-    }
-    .anoun_more{
-        height: 15px;
-        width: 94vw;
-    }
-        
-        .anoun_scroll{
-            height: 31vh;
+        .anoun_more{
+            height: 6.3vh;
+            bottom: 1vh;
+        }
+        .anoun_contents{
+            gap:2vh;
+            height: 30vh;
         }
         
-    } */
-    /* @media only screen and (max-width:400px){
-        .anouncement_card{
-            width: 96vw;
-           margin-top: -65px;
+    }
 
-    }
-    .anoun_more{
-        height: 15px;
-        width: 94vw;
-    }
-        
-        .anoun_scroll{
-            height: 31vh;
-        }
-        
-    } */
     
 
     
